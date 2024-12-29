@@ -1,0 +1,58 @@
+.header {
+  background-color: #5361e4;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 17px 0px;
+}
+
+.menus ul {
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer;
+}
+
+.menus ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.77px;
+  padding-bottom: 5px;
+}
+
+.language p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.77px;
+}
+
+.buttons button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.24px;
+  color: #5361e4;
+  padding: 13px 24px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.menus ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
